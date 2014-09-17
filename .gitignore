@@ -5,3 +5,5 @@
 /build
 build.gradle
 /gradle
+OverflowHidden.iml
+gradle.properties
