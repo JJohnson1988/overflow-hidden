@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">overflow:hidden;</string>
+    <string name="app_desc">Removes the action overflow button from various apps using techniques originally implemented in GravityBox</string>
+</resources>
