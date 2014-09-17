@@ -60,6 +60,17 @@ public class OverflowHidden implements IXposedHookZygoteInit, IXposedHookLoadPac
             case pkgBrowserAOSP:
                 if (devicePlatformVersion >= 4.0) {
                     try {
+                        XposedHelpers.findAndHookMethod(pkgBrowserAOSP + ".NavigationBarPhone", lpp.classLoader, "onFinishInflate", new XC_MethodHook() {
+                            @Override
+                            protected void afterHookedMethod(final MethodHookParam mhp) {
+                                XposedHelpers.setBooleanField(mhp.thisObject, "mNeedsMenu", false);
+                            }
+                        });
+                    } catch (Throwable t) {
+                        XposedBridge.log(t);
+                    }
+
+                    try {
                         XposedHelpers.findAndHookMethod(pkgBrowserAOSP + ".NavScreen", lpp.classLoader, "init", new XC_MethodHook() {
                             @Override
                             protected void afterHookedMethod(final MethodHookParam mhp) {
