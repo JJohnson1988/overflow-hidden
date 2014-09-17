@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="C:\Users\Jeremy\AndroidStudioProjects\OverflowHidden\app\src\main\res" >
+            <file
+                name="overflowhidden"
+                path="C:\Users\Jeremy\AndroidStudioProjects\OverflowHidden\app\src\main\res\drawable-hdpi\overflowhidden.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="overflowhidden"
+                path="C:\Users\Jeremy\AndroidStudioProjects\OverflowHidden\app\src\main\res\drawable-mdpi\overflowhidden.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="overflowhidden"
+                path="C:\Users\Jeremy\AndroidStudioProjects\OverflowHidden\app\src\main\res\drawable-xhdpi\overflowhidden.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="overflowhidden"
+                path="C:\Users\Jeremy\AndroidStudioProjects\OverflowHidden\app\src\main\res\drawable-xxhdpi\overflowhidden.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                path="C:\Users\Jeremy\AndroidStudioProjects\OverflowHidden\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="app_desc" >Removes the action overflow button from various apps using techniques originally implemented in GravityBox
+                </string>
+                <string name="app_name" >overflow:hidden;
+                </string>
+            </file>
+        </source>
+        <source path="C:\Users\Jeremy\AndroidStudioProjects\OverflowHidden\app\build\generated\res\rs\debug" />
+        <source path="C:\Users\Jeremy\AndroidStudioProjects\OverflowHidden\app\build\generated\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\Jeremy\AndroidStudioProjects\OverflowHidden\app\src\debug\res" />
+    </dataSet>
+
+</merger>

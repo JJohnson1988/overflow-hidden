@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/Jeremy/AndroidStudioProjects/OverflowHidden/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app_desc">Removes the action overflow button from various apps using techniques originally implemented in GravityBox</string>
+    <string name="app_name">overflow:hidden;</string>
+
+</resources>

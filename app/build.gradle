@@ -1,0 +1,23 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion "20.0.0"
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    defaultConfig {
+        applicationId "me.jjohnson1988.android.xposed.removeactionoverflowbutton"
+        minSdkVersion 14
+        targetSdkVersion 20
+        versionCode 6
+        versionName "1.5"
+    }
+}
+
+dependencies {
+    provided files('XposedBridgeApi-54.jar')
+}
